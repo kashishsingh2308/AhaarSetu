@@ -1,73 +1,121 @@
-# Welcome to your Lovable project
+AhaarSetu 🍱🤝
+Bridging Food Donors and Those in Need
 
-## Project info
+AhaarSetu is a platform designed to reduce food wastage and help feed people in need by connecting food donors with consumers such as individuals, NGOs, shelters, and organizations.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+The platform acts as a bridge between:
 
-## How can I edit this code?
+Hotels
+Hostels
+Restaurants
+Event organizers
+Individuals with surplus food
 
-There are several ways of editing your application.
+and
 
-**Use Lovable**
+Needy individuals
+NGOs
+Charitable organizations
+Community kitchens
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Our goal is to create a simple and efficient system where leftover food can reach the right people instead of being wasted.
 
-Changes made via Lovable will be committed automatically to this repo.
+Features 🚀
+Dual Login System
 
-**Use your preferred IDE**
+AhaarSetu provides two major login modules:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+1. Donor Login
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Food donors can:
 
-Follow these steps:
+Register/Login
+Add food donation details
+Mention quantity and location
+Update availability status
+Connect with consumers easily
+2. Consumer Login
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Consumers are divided into two categories:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+a) Individual Consumer
+Individuals in need can request available food
+View nearby donations
+Contact donors
+b) Organizational Consumer
+NGOs and organizations can:
+Request bulk food donations
+Coordinate pickups
+Manage food distribution efficiently
+Problem Statement 📌
 
-# Step 3: Install the necessary dependencies.
-npm i
+Every day, a large amount of food is wasted from:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+Hotels
+Hostels
+Functions and events
+Restaurants
 
-**Edit a file directly in GitHub**
+At the same time, many people struggle to get proper meals.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+AhaarSetu aims to solve this problem by creating a direct connection between food donors and consumers,
+helping reduce hunger and food wastage together.
 
-**Use GitHub Codespaces**
+Technologies Used 💻
+Frontend
+JavaScript
+HTML
+CSS
+Backend
+Python
+Database
+Supabase
+How It Works ⚙️
+Donor logs into the platform
+Donor uploads leftover food details
+Consumers/NGOs can view available donations
+Interested consumers send requests
+Food gets distributed instead of wasted
+Future Enhancements 🌱
+Real-time location tracking
+AI-based food demand prediction
+Expiry and food safety monitoring
+Notification system
+Mobile application support
+Multi-language support
+Benefits 🌍
+Reduces food wastage
+Helps needy people
+Supports NGOs and community services
+Encourages social responsibility
+Creates a sustainable food-sharing ecosystem
+Installation & Setup 🛠️
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+# Navigate to project folder
+cd AhaarSetu
 
-## What technologies are used for this project?
+# Install dependencies
+npm install
 
-This project is built with:
+# Run the project
+npm start
+Project Structure 📂
+AhaarSetu/
+│
+├── frontend/
+├── backend/
+├── database/
+├── assets/
+├── README.md
+Contributors 👨‍💻👩‍💻
+Kashish Singh
+Team AhaarSetu
+Vision ✨
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+“Food should reach people, not dustbins.”
 
-## How can I deploy this project?
+AhaarSetu is a step toward a future where no edible food goes to waste and no person sleeps hungry.
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+License 📄
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+This project is developed for educational and social impact purposes.
